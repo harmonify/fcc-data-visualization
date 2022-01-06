@@ -1,0 +1,77 @@
+:root {
+  --color-primary: #eba000;
+  --color-secondary: #119100;
+  --color-dark: #262626;
+  --color-light: #ededed;
+  --color-gray: #979797;
+  --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  /* position: relative; */
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  font-family: var(--font-main);
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+
+#chart-container {
+  position: relative;
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-light);
+  background-color: var(--color-dark);
+}
+
+#chart-container svg {
+  position: relative;
+  fill: var(--color-light);
+}
+
+#subtitle {
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+.dot {
+  border: 1px solid var(--color-dark);
+}
+
+.dot-primary {
+  fill: var(--color-primary);
+}
+
+.dot-secondary {
+  fill: var(--color-secondary);
+}
+
+#tooltip {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  opacity: 0;
+  white-space: nowrap;
+  pointer-events: none;
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  font-weight: bold;
+  font-size: smaller;
+}

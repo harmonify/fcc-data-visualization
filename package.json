@@ -1,0 +1,23 @@
+{
+  "name": "projects",
+  "version": "1.0.0",
+  "description": "These are the 5 projects that I made when learning [D3.js](https://d3js.org/) library on [freeCodeCamp](https://www.freecodecamp.org/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harmonify/fcc-data-visualization.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harmonify/fcc-data-visualization/issues"
+  },
+  "homepage": "https://github.com/harmonify/fcc-data-visualization#readme",
+  "devDependencies": {
+    "@types/d3": "^7.1.0"
+  }
+}

@@ -1,6 +1,6 @@
 # Introduction
 
-This is a project that I made when learning [D3.js](https://d3js.org/) library on [freeCodeCamp](https://www.freecodecamp.org/).
+These are the 5 projects that I made when learning [D3.js](https://d3js.org/) library on [freeCodeCamp](https://www.freecodecamp.org/).
 
 ## Projects
 
