@@ -1,0 +1,80 @@
+{
+  "baseTemperature": 8.66,
+  "monthlyVariance": [
+    {
+      "year": 1753,
+      "month": 1,
+      "variance": -1.366
+    },
+    {
+      "year": 1753,
+      "month": 2,
+      "variance": -2.223
+    },
+    {
+      "year": 1753,
+      "month": 3,
+      "variance": 0.211
+    },
+    {
+      "year": 1753,
+      "month": 4,
+      "variance": -0.958
+    },
+    {
+      "year": 1753,
+      "month": 5,
+      "variance": 0.175
+    },
+    {
+      "year": 1753,
+      "month": 6,
+      "variance": 1.049
+    },
+    {
+      "year": 1753,
+      "month": 7,
+      "variance": 0.464
+    },
+    {
+      "year": 1753,
+      "month": 8,
+      "variance": -0.526
+    },
+    {
+      "year": 1753,
+      "month": 9,
+      "variance": 0.47
+    },
+    {
+      "year": 1753,
+      "month": 10,
+      "variance": -0.61
+    },
+    {
+      "year": 1753,
+      "month": 11,
+      "variance": -1.452
+    },
+    {
+      "year": 1753,
+      "month": 12,
+      "variance": -4.256
+    },
+    {
+      "year": 1754,
+      "month": 1,
+      "variance": -1.748
+    },
+    {
+      "year": 1754,
+      "month": 2,
+      "variance": -4.175
+    },
+    {
+      "year": 1754,
+      "month": 3,
+      "variance": -1.448
+    }
+  ]
+}

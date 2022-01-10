@@ -1,0 +1,78 @@
+:root {
+  --color-dark: #262626;
+  --color-light: #ededed;
+  --color-1: #1884ff;
+  --color-2: #4eafff;
+  --color-3: #6acdff;
+  --color-4: #c0eaff;
+  --color-5: #ffe7c4;
+  --color-6: #fcc87c;
+  --color-7: #ffae52;
+  --color-8: #ff8800;
+  --color-9: #f44034;
+  --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+
+#chart-container {
+  position: relative;
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-light);
+  background-color: var(--color-dark);
+}
+
+#title {
+  font-size: 1.8rem;
+}
+
+#description {
+  font-weight: normal;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+#chart-container svg {
+  position: relative;
+  fill: var(--color-light) !important;
+}
+
+#tooltip {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  opacity: 0;
+  white-space: nowrap;
+  pointer-events: none;
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  font-weight: bold;
+  font-size: smaller;
+}
+
+.legend-item > text {
+  font-size: .8rem;
+}
